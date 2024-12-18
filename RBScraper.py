@@ -133,8 +133,9 @@ def main():
     all_models = iphone_models + samsung_models
 
     today = datetime.now().strftime("%Y-%m-%d")
-    reebelo_file = f"rebeelo_good_quality{today}.csv"
-    backmarket_file = f"scrape_backmarket{today}.csv"
+    reebelo_file = f"Rebeelo{today}.csv"
+    backmarket_file = f"Backmarket{today}.csv"
+
 
     try:
         # Reebelo
